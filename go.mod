@@ -1,4 +1,4 @@
-module github.com/aliyun/alibaba-cloud-sdk-go
+module github.com/misty44/alibaba-cloud-sdk-go
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
