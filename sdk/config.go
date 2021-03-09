@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/misty/alibaba-cloud-sdk-go/sdk/utils"
 )
 
 type Config struct {

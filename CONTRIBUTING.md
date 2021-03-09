@@ -9,7 +9,7 @@ We work hard to provide a high-quality and useful SDK for Alibaba Cloud, and we 
 - If your code does not conform to the standards, does not include adequate tests, we may ask you to update your pull requests before we accept them. We also reserve the right to deny any pull requests that do not align with our standards or goals.
 
 
-[issues]: https://github.com/aliyun/alibaba-cloud-sdk-go/issues
-[pull-requests]: https://github.com/aliyun/alibaba-cloud-sdk-go/pulls
+[issues]: https://github.com/misty/alibaba-cloud-sdk-go/issues
+[pull-requests]: https://github.com/misty/alibaba-cloud-sdk-go/pulls
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [cla]: https://alibaba-cla-2018.oss-cn-beijing.aliyuncs.com/Alibaba_Documentation_Open_Source_Corporate_CLA.pdf

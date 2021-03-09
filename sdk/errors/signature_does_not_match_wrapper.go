@@ -34,7 +34,7 @@ func (*SignatureDostNotMatchWrapper) tryWrap(error *ServerError, wrapInfo map[st
 				debug("Client StringToSign: %s", clientStringToSign)
 				debug("Server StringToSign: %s", serverStringToSign)
 				error.recommend = "This may be a bug with the SDK and we hope you can submit this question in the " +
-					"github issue(https://github.com/aliyun/alibaba-cloud-sdk-go/issues), thanks very much"
+					"github issue(https://github.com/misty/alibaba-cloud-sdk-go/issues), thanks very much"
 			}
 		}
 		ok = true

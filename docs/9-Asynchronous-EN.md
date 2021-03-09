@@ -9,9 +9,9 @@ Note: After opening the asynchronous call, you need to call `Shutdown()` before 
 1. Enable asynchronous call when initializing `client`
    ```go
    import (
-       "github.com/aliyun/alibaba-cloud-sdk-go/sdk"
-       "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-       "github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
+       "github.com/misty/alibaba-cloud-sdk-go/sdk"
+       "github.com/misty/alibaba-cloud-sdk-go/sdk/auth/credentials"
+       "github.com/misty/alibaba-cloud-sdk-go/services/ecs"
    )
 
    c := sdk.NewConfig()

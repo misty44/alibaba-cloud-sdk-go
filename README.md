@@ -15,7 +15,7 @@ English | [简体中文](README-CN.md)
 <a href="https://travis-ci.org/aliyun/alibaba-cloud-sdk-go"><img src="https://travis-ci.org/aliyun/alibaba-cloud-sdk-go.svg?branch=master" alt="Travis Build Status"></a>
 <a href="https://ci.appveyor.com/project/aliyun/alibaba-cloud-sdk-go/branch/master"><img src="https://ci.appveyor.com/api/projects/status/gn17u48i53ktblfp/branch/master?svg=true" alt="Appveyor Build Status"></a>
 <a href="https://app.codacy.com/app/aliyun/alibaba-cloud-sdk-go?utm_source=github.com&utm_medium=referral&utm_content=aliyun/alibaba-cloud-sdk-go&utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/291a39e242364b04ad442f0cce0e30d5" alt="Codacy Badge"></a>
-<a href="https://goreportcard.com/report/github.com/aliyun/alibaba-cloud-sdk-go"><img src="https://goreportcard.com/badge/github.com/aliyun/alibaba-cloud-sdk-go" alt="Go Report Card"></a>
+<a href="https://goreportcard.com/report/github.com/misty/alibaba-cloud-sdk-go"><img src="https://goreportcard.com/badge/github.com/misty/alibaba-cloud-sdk-go" alt="Go Report Card"></a>
 </p>
 
 
@@ -37,13 +37,13 @@ This document introduces how to obtain and call [Alibaba Cloud SDK for Go][SDK].
 Use `go get` to install SDK：
 
 ```sh
-$ go get -u github.com/aliyun/alibaba-cloud-sdk-go/sdk
+$ go get -u github.com/misty/alibaba-cloud-sdk-go/sdk
 ```
 
 If you have used glide to manage dependence，you can also use glide to install Alibaba Cloud SDK for Go：
 
 ```sh
-$ glide get github.com/aliyun/alibaba-cloud-sdk-go
+$ glide get github.com/misty/alibaba-cloud-sdk-go
 ```
 
 ## Quick Examples
@@ -53,7 +53,7 @@ Before you begin, you need to sign up for an Alibaba Cloud account and retrieve 
 ```go
 package main
 
-import "github.com/aliyun/alibaba-cloud-sdk-go/sdk"
+import "github.com/misty/alibaba-cloud-sdk-go/sdk"
 
 func main() {
 
@@ -69,7 +69,7 @@ func main() {
 ```go
 package main
 
-import "github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+import "github.com/misty/alibaba-cloud-sdk-go/sdk/requests"
 
 func main() {
 	request := requests.NewCommonRequest()        // Make a common request
@@ -90,7 +90,7 @@ func main() {
 ```go
 package main
 
-import "github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+import "github.com/misty/alibaba-cloud-sdk-go/sdk/requests"
 
 func main() {
 	request := requests.NewCommonRequest()                // Make a common request
@@ -140,10 +140,10 @@ Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faliyun%2Falibaba-cloud-sdk-go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faliyun%2Falibaba-cloud-sdk-go?ref=badge_large)
 
-[SDK]: https://github.com/aliyun/alibaba-cloud-sdk-go
-[issue]: https://github.com/aliyun/alibaba-cloud-sdk-go/issues/new
+[SDK]: https://github.com/misty/alibaba-cloud-sdk-go
+[issue]: https://github.com/misty/alibaba-cloud-sdk-go/issues/new
 [open-api]: https://api.aliyun.com/#/
-[latest-release]: https://github.com/aliyun/alibaba-cloud-sdk-go/releases
+[latest-release]: https://github.com/misty/alibaba-cloud-sdk-go/releases
 [go]: https://golang.org/dl/
 [endpoints]: https://developer.aliyun.com/endpoints
 [Requirements]: docs/0-Requirements-EN.md

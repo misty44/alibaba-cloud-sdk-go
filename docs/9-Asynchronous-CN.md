@@ -9,9 +9,9 @@ Alibaba Cloud SDK for Go 支持两种方式开启异步调用：
 1. 初始化 `client` 的时候开启异步调用
    ```go
    import (
-       "github.com/aliyun/alibaba-cloud-sdk-go/sdk"
-       "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-       "github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
+       "github.com/misty/alibaba-cloud-sdk-go/sdk"
+       "github.com/misty/alibaba-cloud-sdk-go/sdk/auth/credentials"
+       "github.com/misty/alibaba-cloud-sdk-go/services/ecs"
    )
 
    c := sdk.NewConfig()
