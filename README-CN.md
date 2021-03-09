@@ -14,7 +14,7 @@
 <a href="https://travis-ci.org/aliyun/alibaba-cloud-sdk-go"><img src="https://travis-ci.org/aliyun/alibaba-cloud-sdk-go.svg?branch=master" alt="Travis Build Status"></a>
 <a href="https://ci.appveyor.com/project/aliyun/alibaba-cloud-sdk-go/branch/master"><img src="https://ci.appveyor.com/api/projects/status/gn17u48i53ktblfp/branch/master?svg=true" alt="Appveyor Build Status"></a>
 <a href="https://app.codacy.com/app/aliyun/alibaba-cloud-sdk-go?utm_source=github.com&utm_medium=referral&utm_content=aliyun/alibaba-cloud-sdk-go&utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/291a39e242364b04ad442f0cce0e30d5" alt="Codacy Badge"></a>
-<a href="https://goreportcard.com/report/github.com/misty/alibaba-cloud-sdk-go"><img src="https://goreportcard.com/badge/github.com/misty/alibaba-cloud-sdk-go" alt="Go Report Card"></a>
+<a href="https://goreportcard.com/report/github.com/misty44/alibaba-cloud-sdk-go"><img src="https://goreportcard.com/badge/github.com/misty44/alibaba-cloud-sdk-go" alt="Go Report Card"></a>
 </p>
 
 欢迎使用 Alibaba Cloud SDK for Go。Alibaba Cloud SDK for Go 让您不用复杂编程即可访问云服务器、云监控等多个阿里云服务。
@@ -34,13 +34,13 @@
 使用 `go get` 下载安装 SDK
 
 ```sh
-$ go get -u github.com/misty/alibaba-cloud-sdk-go/sdk
+$ go get -u github.com/misty44/alibaba-cloud-sdk-go/sdk
 ```
 
 如果您使用了 glide 管理依赖，您也可以使用 glide 来安装 Alibaba Cloud SDK for Go
 
 ```sh
-$ glide get github.com/misty/alibaba-cloud-sdk-go
+$ glide get github.com/misty44/alibaba-cloud-sdk-go
 ```
 
 另外，Alibaba Cloud SDK for Go 也会发布在 https://develop.aliyun.com/tools/sdk#/go 这个地址。
@@ -52,7 +52,7 @@ $ glide get github.com/misty/alibaba-cloud-sdk-go
 ```go
 package main
 
-import "github.com/misty/alibaba-cloud-sdk-go/sdk"
+import "github.com/misty44/alibaba-cloud-sdk-go/sdk"
 
 func main() {
 
@@ -68,7 +68,7 @@ func main() {
 ```go
 package main
 
-import "github.com/misty/alibaba-cloud-sdk-go/sdk/requests"
+import "github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
 
 func main() {
 	request := requests.NewCommonRequest()        // 构造一个公共请求
@@ -88,7 +88,7 @@ func main() {
 ```go
 package main
 
-import "github.com/misty/alibaba-cloud-sdk-go/sdk/requests"
+import "github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
 
 func main() {
 	request := requests.NewCommonRequest()                // 构造一个公共请求
@@ -136,11 +136,11 @@ func main() {
 ## 许可证
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faliyun%2Falibaba-cloud-sdk-go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faliyun%2Falibaba-cloud-sdk-go?ref=badge_large)
 
-[SDK]: https://github.com/misty/alibaba-cloud-sdk-go
+[SDK]: https://github.com/misty44/alibaba-cloud-sdk-go
 [apache]: http://www.apache.org/licenses/LICENSE-2.0
-[issue]: https://github.com/misty/alibaba-cloud-sdk-go/issues/new
+[issue]: https://github.com/misty44/alibaba-cloud-sdk-go/issues/new
 [open-api]: https://api.aliyun.com/
-[latest-release]: https://github.com/misty/alibaba-cloud-sdk-go/releases
+[latest-release]: https://github.com/misty44/alibaba-cloud-sdk-go/releases
 [go]: https://golang.org/dl/
 [endpoints]: https://developer.aliyun.com/endpoints
 [Requirements]: docs/0-Requirements-CN.md

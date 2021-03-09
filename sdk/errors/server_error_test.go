@@ -46,7 +46,7 @@ func TestWrapServerError(t *testing.T) {
 	m := make(map[string]string)
 	m["StringToSign"] = "not match"
 	WrapServerError(se, m)
-	assert.Equal(t, "This may be a bug with the SDK and we hope you can submit this question in the github issue(https://github.com/misty/alibaba-cloud-sdk-go/issues), thanks very much", se.Recommend())
+	assert.Equal(t, "This may be a bug with the SDK and we hope you can submit this question in the github issue(https://github.com/misty44/alibaba-cloud-sdk-go/issues), thanks very much", se.Recommend())
 
 	err = NewServerError(400, `{"Code":"SignatureDoesNotMatch","Message":"Specified signature is not matched with our calculation. server string to sign is:match"}`, "comment")
 	se, ok = err.(*ServerError)

@@ -26,7 +26,7 @@ func TestWrapNotMatch(t *testing.T) {
 	m["StringToSign"] = "not match"
 	wrapped := wrapper.tryWrap(se, m)
 	assert.True(t, wrapped)
-	assert.Equal(t, "This may be a bug with the SDK and we hope you can submit this question in the github issue(https://github.com/misty/alibaba-cloud-sdk-go/issues), thanks very much", se.Recommend())
+	assert.Equal(t, "This may be a bug with the SDK and we hope you can submit this question in the github issue(https://github.com/misty44/alibaba-cloud-sdk-go/issues), thanks very much", se.Recommend())
 }
 
 func TestWrapMatch(t *testing.T) {

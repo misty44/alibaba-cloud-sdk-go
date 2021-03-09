@@ -5,13 +5,13 @@
 使用 `go get` 下载安装 SDK
 
 ```sh
-$ go get -u github.com/misty/alibaba-cloud-sdk-go/sdk
+$ go get -u github.com/misty44/alibaba-cloud-sdk-go/sdk
 ```
 
 如果您使用了 glide 管理依赖，您也可以使用 glide 来安装 Alibaba Cloud SDK for Go
 
 ```sh
-$ glide get github.com/misty/alibaba-cloud-sdk-go
+$ glide get github.com/misty44/alibaba-cloud-sdk-go
 ```
 
 ## 通过压缩文件安装
@@ -21,4 +21,4 @@ Alibaba Cloud SDK for Go 中的一个 ZIP 文件包含运行开发工具包所�
 ***
 [← 环境要求](0-Requirements-CN.md) | 安装[(English)](1-Installation-EN.md) | [客户端 →](2-Client-CN.md)
 
-[Go-release]: https://github.com/misty/alibaba-cloud-sdk-go/releases
+[Go-release]: https://github.com/misty44/alibaba-cloud-sdk-go/releases
