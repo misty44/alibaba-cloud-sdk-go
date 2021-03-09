@@ -263,6 +263,9 @@ func (request *baseRequest) GetRegionId() string {
 }
 
 func (request *baseRequest) GetHeaders() map[string]string {
+	if len(request.Headers) == 0 {
+		return map[string]string{}
+	}
 	return request.Headers
 }
 
