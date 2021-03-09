@@ -18,8 +18,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/utils"
 )
 
 var hookGetNonce = func(fn func() string) string {

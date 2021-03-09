@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials"
 	"github.com/stretchr/testify/assert"
 )
 

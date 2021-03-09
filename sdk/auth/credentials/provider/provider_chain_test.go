@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
 )
 
 func TestProviderChain(t *testing.T) {

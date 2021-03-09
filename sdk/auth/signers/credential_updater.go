@@ -17,8 +17,8 @@ package signers
 import (
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/responses"
 )
 
 const defaultInAdvanceScale = 0.95

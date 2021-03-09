@@ -18,9 +18,9 @@ package dypnsapi
 import (
 	"reflect"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
 )
 
 // Client is the sdk client struct, each func corresponds to an OpenAPI

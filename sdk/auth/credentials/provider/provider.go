@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth"
 )
 
 //Environmental virables that may be used by the provider

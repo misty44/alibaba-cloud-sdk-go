@@ -3,7 +3,7 @@ package errors
 import (
 	"strings"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/utils"
 )
 
 const SignatureDostNotMatchErrorCode = "SignatureDoesNotMatch"

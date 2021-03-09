@@ -15,7 +15,7 @@
 package signers
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials"
 )
 
 type SignerV2 struct {

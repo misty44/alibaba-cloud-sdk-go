@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/errors"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/utils"
 )
 
 var debug utils.Debug

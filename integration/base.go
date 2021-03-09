@@ -1,8 +1,8 @@
 package integration
 
 import (
-	"github.com/aliyun/alibaba-cloud-sdk-go/services/ram"
-	"github.com/aliyun/alibaba-cloud-sdk-go/services/sts"
+	"github.com/misty44/alibaba-cloud-sdk-go/services/ram"
+	"github.com/misty44/alibaba-cloud-sdk-go/services/sts"
 
 	"fmt"
 	"os"

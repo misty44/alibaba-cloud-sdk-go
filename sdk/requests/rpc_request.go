@@ -19,7 +19,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/utils"
 )
 
 type RpcRequest struct {

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials/provider"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/responses"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/requests"
 
 	"github.com/stretchr/testify/assert"
 )

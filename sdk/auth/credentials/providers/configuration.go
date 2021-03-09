@@ -3,8 +3,8 @@ package providers
 import (
 	"errors"
 
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth"
-	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth"
+	"github.com/misty44/alibaba-cloud-sdk-go/sdk/auth/credentials"
 )
 
 var (
